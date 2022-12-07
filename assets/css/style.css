@@ -84,6 +84,27 @@ a:hover {
     background-color: rgb(59 58 58);
 }
 
+.page-section{
+  display: flex;
+}
+
+.about-me{
+  width: 25%;
+  height: 150px;
+  padding: 20px;
+  float: left;
+  margin-left: 70px;
+  border-right: 3px solid black;
+}
+.about-me h2{
+  font-size: 30px;
+}
+.about-me-content{
+  padding:20px;
+  height: 150px;
+}
+
+
 
 h2,
 h3,
