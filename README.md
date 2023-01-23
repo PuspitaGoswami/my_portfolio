@@ -9,8 +9,7 @@ This is a portfolio project designed to showcase my skills in HTML and CSS. The 
 -"My Work" section featuring a selection of my recent work
 -"Contact" section for contacting me
 -Use of CSS Grid and Flexbox for layout
--Use of CSS hover effects
-
+-Use of CSS hover effects 
 
 
 ## Installation
