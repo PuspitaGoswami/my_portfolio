@@ -133,8 +133,10 @@ a:hover {
   text-align: justify;
 }
 .projects-2 {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .js-project {
   position: relative;
@@ -272,7 +274,7 @@ p {
   .page-section {
     display: block;
   }
-  .about-me{
+  .about-me {
     height: 80px;
     display: flex;
     justify-content: center;
@@ -285,25 +287,27 @@ p {
     display: flex;
     margin-top: 20px;
     justify-content: center;
-}
-.my-work-title{
-  display: block;
-}
-.image-title{
-  font-size: 14px;
-}
-.contact{
-  height: 236px !important;
-  margin-top: 278px !important;
-}
-.contact-wrap h2{
-  font-size: 22px;
-}
-
+  }
+  .my-work-title {
+    display: block;
+  }
+  .image-title {
+    font-size: 14px;
+  }
+  .contact {
+    height: 236px !important;
+    margin-top: 278px !important;
+  }
+  .contact-wrap h2 {
+    font-size: 22px;
+  }
+  .js-project{
+  width: 180px !important;
+  }
 }
 
 @media only screen and (max-width: 325px) {
-  .contact{
+  .contact {
     height: 236px !important;
     margin-top: 278px !important;
   }
