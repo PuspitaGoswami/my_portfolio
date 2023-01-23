@@ -7,13 +7,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
 
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: rgb(59 58 58);
   color: #ffffff;
 }
@@ -27,7 +29,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 header nav ul {
@@ -55,40 +57,40 @@ a:hover {
 .hero-banner {
   margin-bottom: 20px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
-.hero-banner.hero{
+.hero-banner.hero {
   height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
 }
-.hero-banner img{
+.hero-banner img {
   width: 100%;
   height: 300px;
 }
-.hero{
+.hero {
   display: flex;
   position: relative;
 }
 
-.hero h2{
+.hero h2 {
   display: flex;
-    position: absolute;
-    padding: 10px;
-    right: 100px;
-    bottom: 30px;
-    background-color: rgb(59 58 58);
+  position: absolute;
+  padding: 10px;
+  right: 100px;
+  bottom: 30px;
+  background-color: rgb(59 58 58);
 }
 
-.page-section{
+.page-section {
   display: flex;
 }
 
-.about-me{
+.about-me {
   width: 25%;
   height: 150px;
   padding: 20px;
@@ -96,36 +98,72 @@ a:hover {
   margin-left: 70px;
   border-right: 3px solid black;
 }
-.my-work-title{
+.my-work-title {
   width: 11%;
   margin-top: 100px;
   height: 150px;
   padding: 20px;
-
 }
-.my-works{
+.my-works {
   margin-top: 50px;
 }
-.about-me h2{
+
+
+.about-me h2 {
   font-size: 30px;
 }
 
-.about-me-content{
-  padding:20px;
+.about-me-content {
+  padding: 35px;
   height: 150px;
+  text-align: justify;
 }
-.tip-cal img{
-
+.projects-2{
+  display: flex;
+  justify-content: space-around;
+}
+.js-project{
+  position: relative;
+  width: 400px;
+}
+.js-project img{
   opacity: 1;
   width: 100%;
-  height: 80%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+}
+.tip-cal {
+  position: relative;
+  margin-bottom: 30px;
+}
+.tip-cal img {
+  opacity: 1;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
 }
 
-.tip-cal img:hover{
+.image-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%;
+}
+
+.tip-cal img:hover {
   opacity: 0.5;
 }
-
-
+.js-project img:hover {
+  opacity: 0.5;
+}
 
 h2,
 h3,
