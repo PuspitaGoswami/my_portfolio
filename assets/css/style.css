@@ -85,37 +85,7 @@ a:hover {
   bottom: 30px;
   background-color: rgb(59 58 58);
 }
-@media only screen and (max-width: 768px) {
-  header h1 {
-    display: inline-block;
-    font-size: 25px;
-  }
-  a{
-    font-size: 20px;
-  }
-  header-nav{
-    padding-top: 0;
-  }
-  .page-section{
-    height: 300px;
-  }
- 
-.my-work-title {
-  width: 15% !important;
-  margin-top: 100px;
-  height: 150px;
-  padding: 20px;
-}
-.js-project {
-  position: relative;
-  width: 240px !important;
-}
 
-.contact {
-    margin-top: 350px !important;
-}
-
-}
 .hero .puspi {
   display: flex;
   position: absolute;
@@ -168,7 +138,7 @@ a:hover {
 }
 .js-project {
   position: relative;
-  width: 400px;
+  width: 460px;
 }
 .js-project img {
   opacity: 1;
@@ -244,4 +214,97 @@ p {
 }
 .info img {
   height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    display: inline-block;
+    font-size: 25px;
+  }
+  a {
+    font-size: 20px;
+  }
+  header-nav {
+    padding-top: 0;
+  }
+  .page-section {
+    height: 300px;
+  }
+
+  .my-work-title {
+    width: 15% !important;
+    margin-top: 100px;
+    height: 150px;
+    padding: 20px;
+  }
+  .js-project {
+    position: relative;
+    width: 240px !important;
+  }
+
+  .contact {
+    margin-top: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  header {
+    padding: 20px;
+  }
+  header nav {
+    padding-top: 0px !important;
+    margin-right: 0px !important;
+    float: inherit !important;
+  }
+  a {
+    font-size: 16px;
+  }
+  header nav ul li {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+  .about-me {
+    width: 100%;
+  }
+  .about-me br {
+    display: none;
+  }
+  .page-section {
+    display: block;
+  }
+  .about-me{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    border-right: none;
+  }
+  .about-me h2 {
+    font-size: 22px;
+    width: 385px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.my-work-title{
+  display: block;
+}
+.image-title{
+  font-size: 14px;
+}
+.contact{
+  height: 236px !important;
+  margin-top: 278px !important;
+}
+.contact-wrap h2{
+  font-size: 22px;
+}
+
+}
+
+@media only screen and (max-width: 325px) {
+  .contact{
+    height: 236px !important;
+    margin-top: 278px !important;
+  }
 }
